@@ -7,7 +7,9 @@
 
 def calculate_total(price, quantity):
     # Write your code here
+    result = price * quantity
     pass
+    return result
 
 
 def main():
