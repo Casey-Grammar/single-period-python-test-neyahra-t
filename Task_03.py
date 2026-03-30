@@ -13,7 +13,9 @@
 
 def replace_book(books, old_book, new_book):
     # Write your code here
+    updated_book = books.replace("old_book", "new_book")
     pass
+    return updated_book
 
 
 def main():
