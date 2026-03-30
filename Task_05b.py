@@ -8,8 +8,15 @@
 # returns ["pen", "book", "ruler"]
 
 def unique_items(items):
+    stuff = []
     # Write your code here
-    pass
+    for item in items:
+        item.lower()
+        if item in stuff:
+            pass
+        else:
+            stuff.append(item)
+    return stuff
 
 
 def main():
