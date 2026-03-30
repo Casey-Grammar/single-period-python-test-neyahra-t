@@ -8,8 +8,13 @@
 
 def extract_even_numbers(numbers):
     # Write your code here
-    pass
-
+    even = []
+    for num in numbers:
+        if num % 2 == 0:
+            even.append(num)
+        else:
+            pass
+    return even
 
 def main():
     user_input = input("Enter numbers separated by commas: ")
