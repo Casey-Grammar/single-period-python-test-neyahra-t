@@ -18,7 +18,22 @@
 
 def expand_subject_codes(codes):
     # Write your code here
-    pass
+    subjects = []
+    for word in codes:
+        if word == 'ENG':
+            subjects.append('English')
+        elif word == 'MAT':
+            subjects.append('Mathematics')
+        elif word == 'SCI':
+            subjects.append('Science')
+        elif word == 'HIS':
+            subjects.append('History')
+        elif word == 'ART':
+            subjects.append('Art')
+        else:
+            pass
+    return subjects
+        
 
 
 def main():
